@@ -6,6 +6,93 @@
     <title>Explorando o Cosmos</title>
     <link rel="stylesheet" href="style.css">
 </head>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0b0d17;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(180deg, #16192b 0%, #0b0d17 100%);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #a3c4f3;
+    margin-bottom: 0.5rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.card {
+    background-color: #1a1d36;
+    border-radius: 8px;
+    padding: 1.5rem;
+    flex: 1 1 250px;
+    border: 1px solid #2e3459;
+}
+
+.card h2 {
+    color: #cfd7f6;
+    margin-bottom: 0.5rem;
+}
+
+.fato-curioso {
+    background-color: #14172b;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+    border: 1px dashed #4e588f;
+}
+
+.fato-curioso h2 {
+    margin-bottom: 1rem;
+    color: #a3c4f3;
+}
+
+button {
+    background-color: #4361ee;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3a0ca3;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: #7b88a8;
+}
 <body>
     <header>
         <h1>Explorando o Cosmos</h1>
@@ -42,5 +129,6 @@
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>
